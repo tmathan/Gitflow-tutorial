@@ -53,7 +53,7 @@ gitflow | git
 gitflow | git
 --------|-----
 _N/A_ | `git push origin develop`
- | `git push origin :feature/MYFEATURE`
+ | `git push origin :feature/MYFEATURE  # If pushed`
 
 
 ## Releases
@@ -100,25 +100,36 @@ gitflow | git
 _N/A_ | `git push origin master`
  | `git push origin develop`
  | `git push origin --tags`
- | `git push origin :release/1.2.0`
+ | `git push origin :release/1.2.0  # If pushed`
 
 
-```sh
-git flow hotfix start 1.2.1 [master|develop]
+## Hotfixes
+
+### Create a hotfix branch
+
+gitflow | git
+--------|-----
+`git flow hotfix start 1.2.1 [commit]` | `git checkout -b hotfix/1.2.1 [commit]`
 
 
-git checkout -b hotfix-1.2.1 [master|develop]
-```
+### Finalize a hotfix branch
+
+gitflow | git
+--------|-----
+`git flow hotfix finish 1.2.1` | `git checkout master`
+ | `git merge --no-ff hotfix/1.2.1`
+ | `git tag -a 1.2.1`
+ | `git checkout develop`
+ | `git merge --no-ff hotfix/1.2.1`
+ | `git branch -d hotfix/1.2.1`
 
 
-```sh
-git flow hotfix finish 1.2.1
+### Push a hotfix branch
 
+gitflow | git
+--------|-----
+_N/A_ | `git push origin master`
+ | `git push origin develop`
+ | `git push origin --tags`
+ | `git push origin :hotfix/1.2.1  # If pushed`
 
-git checkout develop
-git merge --no-ff hotfix-1.2.1
-git checkout master
-git merge --no-ff hotfix-1.2.1
-git branch -d hotfix-1.2.1
-git tag -a 1.2.1
-```
