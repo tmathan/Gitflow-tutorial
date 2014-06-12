@@ -6,32 +6,12 @@ gitflow | git
  | `git commit --allow-empty -m "Initial commit"`
  | `git checkout -b develop`
 
-With `gitflow`:
-```sh
-git flow init
-```
-
-With raw `git`:
-```
-# Make this directory into a git repo
-git init 
-# Now in `master` branch
-
-# Make an initial commit for the sake of commit tracking (history, branching, etc.)
-git commit --allow-empty -m "Initial commit"
-
-# Create a `develop` branch from `master` and then check it out
-git checkout -b develop
-```
-
 
 ### Connect to the remote repository
 
-With `gitflow` and/or raw `git`:
-```sh
-# Add the remote repo URL
-git remote add origin git@github.com:MYACCOUNT/MYREPO
-```
+gitflow | git
+--------|-----
+`git remote add origin git@github.com:MYACCOUNT/MYREPO` | `git remote add origin git@github.com:MYACCOUNT/MYREPO`
 
 
 ### Create a feature branch
