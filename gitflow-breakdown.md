@@ -11,7 +11,7 @@ gitflow | git
 
 gitflow | git
 --------|-----
-`git remote add origin git@github.com:MYACCOUNT/MYREPO` | _same_
+_N/A_ | `git remote add origin git@github.com:MYACCOUNT/MYREPO`
 
 
 ## Features
