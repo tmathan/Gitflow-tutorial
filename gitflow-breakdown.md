@@ -48,7 +48,7 @@ gitflow | git
  | `git branch -d feature/MYFEATURE`
 
 
-### Push the finalized feature branch
+### Push the merged feature branch
 
 gitflow | git
 --------|-----
@@ -93,7 +93,7 @@ gitflow | git
  | `git branch -d release/1.2.0`
 
 
-### Push the finalized feature branch
+### Push the merged feature branch
 
 gitflow | git
 --------|-----
@@ -124,7 +124,7 @@ gitflow | git
  | `git branch -d hotfix/1.2.1`
 
 
-### Push a hotfix branch
+### Push the merged hotfix branch
 
 gitflow | git
 --------|-----
