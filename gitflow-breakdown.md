@@ -81,7 +81,7 @@ _N/A_ | `git checkout release/1.2.0`
  | `git pull --rebase origin release/1.2.0`
 
 
-# Finalize a release branch
+### Finalize a release branch
 
 gitflow | git
 --------|-----
