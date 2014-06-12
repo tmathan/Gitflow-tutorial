@@ -1,7 +1,4 @@
-# gitflow.md
-
-
-# Initialize
+### Initialize
 
 gitflow | git
 --------|----
@@ -30,7 +27,7 @@ git checkout -b develop
 ```
 
 
-# Connect to the remote repository
+### Connect to the remote repository
 
 With `gitflow` and/or raw `git`:
 ```sh
@@ -39,7 +36,7 @@ git remote add origin git@github.com:MYACCOUNT/MYREPO
 ```
 
 
-# Create a feature branch
+### Create a feature branch
 
 
 ```sh
