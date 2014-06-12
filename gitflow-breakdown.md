@@ -53,7 +53,7 @@ gitflow | git
 gitflow | git
 --------|-----
 _N/A_ | `git push origin develop`
- | `git push origin :feature/MYFEATURE  # If pushed`
+ | `git push origin :feature/MYFEATURE` _(if pushed)_
 
 
 ## Releases
@@ -100,7 +100,7 @@ gitflow | git
 _N/A_ | `git push origin master`
  | `git push origin develop`
  | `git push origin --tags`
- | `git push origin :release/1.2.0  # If pushed`
+ | `git push origin :release/1.2.0` _(if pushed)_
 
 
 ## Hotfixes
@@ -131,5 +131,5 @@ gitflow | git
 _N/A_ | `git push origin master`
  | `git push origin develop`
  | `git push origin --tags`
- | `git push origin :hotfix/1.2.1  # If pushed`
+ | `git push origin :hotfix/1.2.1` _(if pushed)_
 
