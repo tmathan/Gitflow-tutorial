@@ -2,11 +2,9 @@
 
 gitflow | git
 --------|----
-```sh
-git flow init
-``` | ```sh
-git init
-```
+`git flow init` | `git init`
+ | `git commit --allow-empty -m "Initial commit"`
+ | git checkout -b develop
 
 With `gitflow`:
 ```sh
