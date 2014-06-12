@@ -4,7 +4,7 @@ gitflow | git
 --------|----
 `git flow init` | `git init`
  | `git commit --allow-empty -m "Initial commit"`
- | git checkout -b develop
+ | `git checkout -b develop`
 
 With `gitflow`:
 ```sh
