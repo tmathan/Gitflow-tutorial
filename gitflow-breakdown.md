@@ -133,3 +133,10 @@ _N/A_ | `git push origin master`
  | `git push origin --tags`
  | `git push origin :hotfix/1.2.1` _(if pushed)_
 
+
+
+## References
+
+ - http://nvie.com/posts/a-successful-git-branching-model/
+ - https://help.github.com/articles/using-pull-requests#shared-repository-model
+ - Personal experience
